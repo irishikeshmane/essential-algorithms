@@ -7,4 +7,12 @@ public class Numbers {
         array[index_a] = array[index_b];
         array[index_b] = temp;
     }
+
+    public static int random(int start, int end) {
+        int length = end - start + 1;
+        int random = (int) (Math.random() * length);
+        System.out.println(random);
+
+        return start + random;
+    }
 }

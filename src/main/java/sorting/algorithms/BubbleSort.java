@@ -7,7 +7,7 @@ import util.Numbers;
  *
  * --------------------------------
  * time complexity = O(n^2)
- * space complexity = O(n)
+ * space complexity = O(1)
  * --------------------------------
  * */
 public class BubbleSort {
