@@ -44,7 +44,6 @@ public class QuickSort {
 
         sort(A, start, mid - 1, strategy);
         sort(A, mid + 1, end, strategy);
-
     }
 
     private static int partitionByLomuto(int[] A, int start, int end) {

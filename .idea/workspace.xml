@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e177a74a-cab6-46a1-9af0-d88faa503a4b" name="Changes" comment="work till 01/01/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/algorithms/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/algorithms/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/QuickSortStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sorting.algorithms/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sorting.algorithms/QuickSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/problems/KthLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/problems/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/problems/TwoSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sorting/problems/KthLargestElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sorting/problems/TwoSumIITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sorting/problems/TwoSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/algorithms/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/algorithms/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/algorithms/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/algorithms/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/algorithms/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/algorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/algorithms/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,63 +64,79 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.QuickSortTest">
-    <configuration name="All in essential-algorithms-lib (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essential-algorithms-lib" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in essential-algorithms-lib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essential-algorithms-lib" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="sorting.problems" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.KthLargestElementTest">
+    <configuration name="KthLargestElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essential-algorithms-lib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.algorithms.*" />
+          <option name="PATTERN" value="sorting.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sorting.algorithms" />
-      <option name="MAIN_CLASS_NAME" value="sorting.algorithms.MergeSortTest" />
+      <option name="PACKAGE_NAME" value="sorting.problems" />
+      <option name="MAIN_CLASS_NAME" value="sorting.problems.KthLargestElementTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KthLargestElementTest.caseI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essential-algorithms-lib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.algorithms.*" />
+          <option name="PATTERN" value="sorting.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sorting.algorithms" />
-      <option name="MAIN_CLASS_NAME" value="sorting.algorithms.QuickSortTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="sorting.problems" />
+      <option name="MAIN_CLASS_NAME" value="sorting.problems.KthLargestElementTest" />
+      <option name="METHOD_NAME" value="caseI" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sorting.algorithms in essential-algorithms-lib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoSumIITest.caseI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essential-algorithms-lib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.algorithms.*" />
+          <option name="PATTERN" value="sorting.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sorting.algorithms" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="sorting.problems" />
+      <option name="MAIN_CLASS_NAME" value="sorting.problems.TwoSumIITest" />
+      <option name="METHOD_NAME" value="caseI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSumTest.caseI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essential-algorithms-lib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sorting.problems" />
+      <option name="MAIN_CLASS_NAME" value="sorting.problems.TwoSumTest" />
+      <option name="METHOD_NAME" value="caseI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problems in essential-algorithms-lib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essential-algorithms-lib" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/sorting/problems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuickSortTest" />
-        <item itemvalue="JUnit.All in essential-algorithms-lib (1)" />
-        <item itemvalue="JUnit.All in essential-algorithms-lib" />
-        <item itemvalue="JUnit.sorting.algorithms in essential-algorithms-lib" />
-        <item itemvalue="JUnit.MergeSortTest" />
+        <item itemvalue="JUnit.KthLargestElementTest" />
+        <item itemvalue="JUnit.KthLargestElementTest.caseI" />
+        <item itemvalue="JUnit.problems in essential-algorithms-lib" />
+        <item itemvalue="JUnit.TwoSumIITest.caseI" />
+        <item itemvalue="JUnit.TwoSumTest.caseI" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703661792893</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="work till 01/01/2024">
+      <option name="closed" value="true" />
+      <created>1704154137218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704154137218</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
