@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e177a74a-cab6-46a1-9af0-d88faa503a4b" name="Changes" comment="work till 01/01/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/problems/KthLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/problems/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/problems/TwoSumII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sorting/problems/KthLargestElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sorting/problems/TwoSumIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sorting/problems/TwoSumTest.java" afterDir="false" />
+    <list default="true" id="e177a74a-cab6-46a1-9af0-d88faa503a4b" name="Changes" comment="work till 01/05/24">
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorial/algorithms/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorial/algorithms/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/PropertyStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/combinatorial/algorithms/FactorialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/combinatorial/algorithms/FibonacciTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/algorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/algorithms/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -55,21 +53,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sorting.problems" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KthLargestElementTest">
+  <component name="RunManager" selected="JUnit.FactorialTest.factTest">
+    <configuration name="FactorialTest.factTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essential-algorithms-lib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="combinatorial.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="combinatorial.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="combinatorial.algorithms.FactorialTest" />
+      <option name="METHOD_NAME" value="factTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KthLargestElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essential-algorithms-lib" />
       <extension name="coverage">
@@ -117,22 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest.caseI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essential-algorithms-lib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sorting.problems" />
-      <option name="MAIN_CLASS_NAME" value="sorting.problems.TwoSumTest" />
-      <option name="METHOD_NAME" value="caseI" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="problems in essential-algorithms-lib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essential-algorithms-lib" />
       <option name="TEST_OBJECT" value="directory" />
@@ -156,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FactorialTest.factTest" />
         <item itemvalue="JUnit.KthLargestElementTest" />
         <item itemvalue="JUnit.KthLargestElementTest.caseI" />
         <item itemvalue="JUnit.problems in essential-algorithms-lib" />
         <item itemvalue="JUnit.TwoSumIITest.caseI" />
-        <item itemvalue="JUnit.TwoSumTest.caseI" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704154137218</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="work till 01/05/24">
+      <option name="closed" value="true" />
+      <created>1704433558599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704433558599</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +254,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="work till 12/26/2023" />
     <MESSAGE value="work till 01/01/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="work till 01/01/2024" />
+    <MESSAGE value="work till 01/05/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="work till 01/05/24" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
