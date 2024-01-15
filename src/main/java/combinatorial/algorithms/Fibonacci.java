@@ -43,7 +43,7 @@ public class Fibonacci {
             result[num] = b1;
             return;
         } else {
-            return getAdditiveSeq(num - 1, b2, b1 + b2);
+            getAdditiveSeq(num - 1, b2, b1 + b2);
         }
     }
 }

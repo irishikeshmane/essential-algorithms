@@ -5,6 +5,8 @@ import util.Numbers;
 /*
  * Leetcode https://leetcode.com/problems/kth-largest-element-in-an-array/
  * A Selection problem
+ *
+ * Strategy: "RANDOMIZED QUICK SELECT"
  */
 public class KthLargestElement {
 
