@@ -3,6 +3,12 @@ package combinatorial.problems;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * Leetcode : https://leetcode.com/problems/permutations/description/
+ * space complexity : O(n! * n)
+ * time complexity : O(n! * n)
+ *  */
+
 public class Permutations {
 
     List<List<Integer>> result;
