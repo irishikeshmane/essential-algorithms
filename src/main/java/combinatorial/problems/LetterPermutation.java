@@ -3,6 +3,12 @@ package combinatorial.problems;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+* Leetcode : https://leetcode.com/problems/letter-case-permutation/description/
+* space complexity : O(2^n)
+* time complexity : O(2^n)
+*  */
+
 public class LetterPermutation {
 
     List<String> result;
