@@ -7,6 +7,7 @@ import java.util.List;
  * Leetcode : https://leetcode.com/problems/subsets/description/
  * space complexity : O(2^n)
  * time complexity : O(2^n)
+ * Strategy : Include - Exclude
  *  */
 public class Subsets {
     List<List<Integer>> result;

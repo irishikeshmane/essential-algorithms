@@ -21,4 +21,19 @@ public class PermutationsTest {
         assertThat(expected).containsExactlyInAnyOrderElementsOf(actual);
 
     }
+
+    @Test
+    void permuteTest_2() {
+        // given
+        int[] nums = {1, 2, 1};
+        List<List<Integer>> expected = List.of(List.of(1,2,1), List.of(1,1,2), List.of(2,1,1));
+
+        // when
+        PermutationsII permutations = new PermutationsII();
+        List<List<Integer>> actual = permutations.permuteUnique(nums);
+
+        // then
+        assertThat(expected).containsExactlyInAnyOrderElementsOf(actual);
+
+    }
 }

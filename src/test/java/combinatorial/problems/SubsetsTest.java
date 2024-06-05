@@ -20,4 +20,18 @@ public class SubsetsTest {
         // then
         assertThat(expected).containsExactlyInAnyOrderElementsOf(actual);
     }
+
+    @Test
+    void subsetsTest_2() {
+        // given
+        int[] nums = {1, 2, 2};
+        List<List<Integer>> expected = List.of(List.of(), List.of(1), List.of(2), List.of(1, 2), List.of(2, 2), List.of(1, 2, 2));
+
+        // when
+        SubsetsII subsets = new SubsetsII();
+        List<List<Integer>> actual = subsets.subsetsWithDup(nums);
+
+        // then
+        assertThat(expected).containsExactlyInAnyOrderElementsOf(actual);
+    }
 }
