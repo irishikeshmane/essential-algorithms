@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e177a74a-cab6-46a1-9af0-d88faa503a4b" name="Changes" comment="work till 01/15/24">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/algorithms/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/problems/IntersectionThreeSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/problems/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sorting/problems/IntersectionThreeSortedArraysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sorting/problems/MergeSortedArrayTest.java" afterDir="false" />
+    <list default="true" id="e177a74a-cab6-46a1-9af0-d88faa503a4b" name="Changes" comment="work till 06/05/24">
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorial/problems/CombinationBackTracking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorial/problems/PhoneNumberCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/combinatorial/problems/CombinationBackTrackingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/combinatorial/problems/PhoneNumberCombinationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/problems/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/problems/MeetingRooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -34,6 +34,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -71,96 +72,104 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sorting.algorithms" />
       <recent name="sorting.problems" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="combinatorial.problems" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RottingOrangesTest.orangesRottingTest_4">
-    <configuration name="MergeSortedArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PalindromePartitioningTest">
+    <configuration name="CombinationBackTrackingTest.combineTest_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essential-algorithms-lib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.problems.*" />
+          <option name="PATTERN" value="combinatorial.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sorting.problems" />
-      <option name="MAIN_CLASS_NAME" value="sorting.problems.MergeSortedArrayTest" />
+      <option name="PACKAGE_NAME" value="combinatorial.problems" />
+      <option name="MAIN_CLASS_NAME" value="combinatorial.problems.CombinationBackTrackingTest" />
+      <option name="METHOD_NAME" value="combineTest_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromePartitioningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="essential-algorithms-lib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="combinatorial.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="combinatorial.problems" />
+      <option name="MAIN_CLASS_NAME" value="combinatorial.problems.PalindromePartitioningTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RottingOrangesTest.orangesRottingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromePartitioningTest.combineTest_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essential-algorithms-lib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.problems.*" />
+          <option name="PATTERN" value="combinatorial.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="graph.problems" />
-      <option name="MAIN_CLASS_NAME" value="graph.problems.RottingOrangesTest" />
-      <option name="METHOD_NAME" value="orangesRottingTest" />
+      <option name="PACKAGE_NAME" value="combinatorial.problems" />
+      <option name="MAIN_CLASS_NAME" value="combinatorial.problems.PalindromePartitioningTest" />
+      <option name="METHOD_NAME" value="combineTest_1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RottingOrangesTest.orangesRottingTest_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberCombinationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essential-algorithms-lib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.problems.*" />
+          <option name="PATTERN" value="combinatorial.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="graph.problems" />
-      <option name="MAIN_CLASS_NAME" value="graph.problems.RottingOrangesTest" />
-      <option name="METHOD_NAME" value="orangesRottingTest_2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="combinatorial.problems" />
+      <option name="MAIN_CLASS_NAME" value="combinatorial.problems.PhoneNumberCombinationsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RottingOrangesTest.orangesRottingTest_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberCombinationsTest.letterCombinationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="essential-algorithms-lib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.problems.*" />
+          <option name="PATTERN" value="combinatorial.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="graph.problems" />
-      <option name="MAIN_CLASS_NAME" value="graph.problems.RottingOrangesTest" />
-      <option name="METHOD_NAME" value="orangesRottingTest_3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RottingOrangesTest.orangesRottingTest_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="essential-algorithms-lib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="graph.problems" />
-      <option name="MAIN_CLASS_NAME" value="graph.problems.RottingOrangesTest" />
-      <option name="METHOD_NAME" value="orangesRottingTest_4" />
+      <option name="PACKAGE_NAME" value="combinatorial.problems" />
+      <option name="MAIN_CLASS_NAME" value="combinatorial.problems.PhoneNumberCombinationsTest" />
+      <option name="METHOD_NAME" value="letterCombinationsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RottingOrangesTest.orangesRottingTest_4" />
-        <item itemvalue="JUnit.RottingOrangesTest.orangesRottingTest_3" />
-        <item itemvalue="JUnit.RottingOrangesTest.orangesRottingTest_2" />
-        <item itemvalue="JUnit.RottingOrangesTest.orangesRottingTest" />
-        <item itemvalue="JUnit.MergeSortedArrayTest" />
+        <item itemvalue="JUnit.PalindromePartitioningTest" />
+        <item itemvalue="JUnit.PalindromePartitioningTest.combineTest_1" />
+        <item itemvalue="JUnit.CombinationBackTrackingTest.combineTest_1" />
+        <item itemvalue="JUnit.PhoneNumberCombinationsTest" />
+        <item itemvalue="JUnit.PhoneNumberCombinationsTest.letterCombinationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705362539969</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="work till 06/05/24">
+      <option name="closed" value="true" />
+      <created>1717566510487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717566510487</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +317,9 @@
     <MESSAGE value="work till 01/05/24" />
     <MESSAGE value="work till 01/09/24" />
     <MESSAGE value="work till 01/15/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="work till 01/15/24" />
+    <MESSAGE value="work till 05/27/24" />
+    <MESSAGE value="work till 06/05/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="work till 06/05/24" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
