@@ -1,7 +1,5 @@
 package tree.algorithm;
 
-import com.sun.source.tree.Tree;
-
 public class BST {
 
     TreeNode root;
